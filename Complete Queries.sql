@@ -200,7 +200,6 @@ limit 10
 --the description field. Label content containing these keywords as 'Bad' and all other 
 --content as 'Good'. Count how many items fall into each category.
 
-
 select 
 	case
 		when description ilike '%kill%' or description ilike '%violence%' then 'bad'
